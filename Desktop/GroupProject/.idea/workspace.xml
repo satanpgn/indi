@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="bcfa7a96-a8d1-475a-a314-078c004e66e8" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/Project/ThriftStore/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Project/ThriftStore/.mvn/wrapper/maven-wrapper.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Project/ThriftStore/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Project/ThriftStore/mvnw" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Project/ThriftStore/mvnw.cmd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Project/ThriftStore/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Project/ThriftStore/src/main/java/com/example/thriftstore/ThriftStoreApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Project/ThriftStore/src/main/java/com/example/thriftstore/controller/LoginController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Project/ThriftStore/src/main/java/com/example/thriftstore/controller/UserController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Project/ThriftStore/src/main/java/com/example/thriftstore/entity/AdminController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Project/ThriftStore/src/main/java/com/example/thriftstore/entity/LoginController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Project/ThriftStore/src/main/java/com/example/thriftstore/entity/User.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Project/ThriftStore/src/main/java/com/example/thriftstore/pojo/Userpojo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Project/ThriftStore/src/main/resources/application.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Project/ThriftStore/src/main/resources/templates/User/User/CSS/homepage.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Project/ThriftStore/src/main/resources/templates/User/User/CSS/login.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Project/ThriftStore/src/main/resources/templates/User/User/CSS/registration.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Project/ThriftStore/src/main/resources/templates/User/User/Html/Account.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Project/ThriftStore/src/main/resources/templates/User/User/Html/Fancy.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Project/ThriftStore/src/main/resources/templates/User/User/Html/Kids.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Project/ThriftStore/src/main/resources/templates/User/User/Html/Men's.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Project/ThriftStore/src/main/resources/templates/User/User/Html/Register.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Project/ThriftStore/src/main/resources/templates/User/User/Html/Women's.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Project/ThriftStore/src/main/resources/templates/User/User/Html/create.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Project/ThriftStore/src/main/resources/templates/User/User/Html/form.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Project/ThriftStore/src/main/resources/templates/User/User/Html/homepage.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Project/ThriftStore/src/main/resources/templates/User/User/Html/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Project/ThriftStore/src/main/resources/templates/User/User/Html/login.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Project/ThriftStore/src/main/resources/templates/User/User/Html/social.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Project/ThriftStore/src/main/resources/templates/User/User/images/appstore.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Project/ThriftStore/src/main/resources/templates/User/User/images/esewa_og.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Project/ThriftStore/src/main/resources/templates/User/User/images/imepay.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Project/ThriftStore/src/main/resources/templates/User/User/images/newsletter-logo.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Project/ThriftStore/src/main/resources/templates/User/User/images/onlineorder.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Project/ThriftStore/src/main/resources/templates/User/User/images/paypal.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Project/ThriftStore/src/main/resources/templates/User/User/images/savtime.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Project/ThriftStore/src/main/resources/templates/User/User/images/shoppingcart.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Project/ThriftStore/src/test/java/com/example/thriftstore/ThriftStoreApplicationTests.java" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectId" id="2KkfoxqtKWmze9qyTSBNDaTanz1" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "dart.analysis.tool.window.visible": "false",
+    "last_opened_file_path": "C:/Users/PANKAJ SINGH/Desktop/SD",
+    "vue.rearranger.settings.migration": "true"
+  }
+}]]></component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="bcfa7a96-a8d1-475a-a314-078c004e66e8" name="Changes" comment="" />
+      <created>1674523679234</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1674523679234</updated>
+      <workItem from="1674523680664" duration="25000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+</project>

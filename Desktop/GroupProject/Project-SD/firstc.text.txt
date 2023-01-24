@@ -1,0 +1,48 @@
+void main() {
+  
+  final orderedPCalc opc = orderedPCalc(qtyNum:10,qtyPrice:100,taxPercent:0.13,shippingCharges:15,extraCharges:30,defaultEmailSubject:"Invoic Details #33");
+  opc.calculateOrder();
+}
+
+class orderedPCalc {
+  final int qtyNum;
+  num? qtyPrice;
+  num? taxPercent;
+  int? shippingCharges;
+  int? extraCharges;
+  final String? defaultEmailSubject;
+  
+  
+// Constructor in Dart
+  orderedPCalc(
+      {required this.qtyNum,
+      required this.qtyPrice,
+      required this.taxPercent,
+      required this.shippingCharges,
+      required this.extraCharges,
+      required this.defaultEmailSubject,
+      });
+
+  
+  void calculateOrder() {
+    final cost = (qtyNum!*qtyPrice!) + (qtyNum!*qtyPrice!) * taxPercent!;
+    final finalCost = cost + shippingCharges! + extraCharges!;
+    print("Final Cost Was: $finalCost");
+   // sendOrderConfiEmail();
+    SendConfirmEmail.emailSubject="Invoice Details #33";
+    SendConfirmEmail.sendOrderConfiEmail();
+  }
+}
+  
+  class SendConfirmEmail{
+   // static final String? emailSubject ="";
+    static String? emailSubject ="";
+    
+  
+
+  static void sendOrderConfiEmail() {
+    String receiverEmail = "lyfinfinitum@gmail.com";
+    String senderEmail = "daraz@gmail.com";
+    print("Sending Email From $senderEmail to $receiverEmail");
+  }
+}
