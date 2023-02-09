@@ -1,129 +1,242 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>ThriftStore</title>
-    <link rel="stylesheet" href="homepage.css">
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>ThriftStore</title>
+  <link rel="stylesheet" href="../CSS/homepage.css">
 
 
 </head>
 <body>
 
-    <div class="header">  
-    <div class="container">
-        <div class="navbar">
-        <div class="logo">
-            <img src="abcd.jpg" width="75">
-            </div>
-            
-            <nav>
-                <ul>
-                    <li><a href="">Home</a></li>
-                    <li><a href="">Men's</a></li>
-                    <li><a href="">Women's</a></li>
-                    <li><a href="">Kids</a></li>
-                    <li><a href="">Fancy</a></li>
-                    <li><a href="">Contact Us</a></li>
-                    <li><a href="">Account</a></li>
-                    <label for="gsearch">Search Products</label>
-                    <input type="search" id="gsearch" name="gsearch">
-                    
-                </ul>
-                </nav>
+<div class="header">
+  <div class="container">
+    <div class="navbar">
+      <div class="logo">
+        <img src="../images/abcd.jpg" width="75">
+      </div>
 
-                
-                
+      <nav>
+        <input type="text" placeholder="Search..">
+        <ul>
+          <li><a href="Home" class="active">Home</a></li>
+          <li><a href="Mens">Men's</a></li>
+          <li><a href="Women's">Women's</a></li>
+          <li><a href="Kids">Kids</a></li>
+          <li><a href="Fancy">Fancy</a></li>
+          <li><a href="Account">Account
+            <select name="Account" id="Accounts">
+              <option value="Sign">Sign-In</option>
+              <option value="Sign-out">Sign-Out</option>
+              <option value="Register">Register</option>
+            </select>
+
+          </a>
+          </li>
+        </ul>
+      </nav>
+      </div>
+
     </div>
+
     <div class="row">
-        <div class="col-2">
-         <h1>Explore the Apparels<br>A Hot Deals</h1>
-         <p>An Affordable range of Designs For your own Comfortable Authentic Wears.</p>
-         <a href="" class="btn"> Visit Now!!! &#8594;</a>
-        </div>
-        <div class="col-2">
+      <div class="col-2">
+        <h1>Explore the Apparels<br>A New Deals</h1>
+        <img src="../images/jacpal.jpg" width="center">
+        <p>An Affordable Designs For your own Comfortable Authentic Wears.</p>
+        <a href="" class="btn"> Visit Now!!! &#8594;</a>
 
-            </div>
+      </div>
+      <div class="col-2">
+
+      </div>
     </div>
+  </div>
+
+</div>
+<!---------- featured categories------------>
+
+<div class="categories">
+  <div class="small-container">
+    <div class="row">
+      <div class="col-3">
+        <p> Fashion Wears</p>
+        <img src="../images/jeans.jpg" width="350px">
+      </div>
+      <div class="col-3">
+        <img src="../images/men's.jpg" width="350px">
+
+      </div>
+      <div class="col-3">
+        <img src="../images/womens.jpg" width="350px">
+
+      </div>
     </div>
-    
+  </div>
 </div>
 
 
-<!---------- featured categories------------>
- 
-   <div class="categories">
-    <div class="small-container">
-        <div class="row">
-            <div class="col-3">
-                <img src="jeans.jpg" width="350px">
-            </div>
-            <div class="col-3">
-                <img src="men's.jpg" width="350px">
-    
-            </div>
-            <div class="col-3">
-                <img src="womens.jpg" width="350px">
-    
-            </div>
-    
+<!---------- featured Products------------>
+<div class="small-container">
+  <h2>Featured Product</h2>
+  <div class="row">
+    <div class="col-4">
+      <img src="../images/coats.jpg" height="200px" width="200px">
+      <p>Winter Fur-Bomb Jackets</p>
+      <h4>MRP</h4>
+        <p>$45</p>
+      <select>
+        <option>Select Size</option>
+        <option>XL</option>
+        <option>XXL</option>
+        <option>Small</option>
+        <option>Large</option>
+        <option>Select Size</option>
+        <p><button>Add to Cart</button></p>
+      </select>
+
     </div>
-    
-        </div>
-        </div>
+    <div class="col-4">
+      <img src="../images/lehenga.jpeg" height="200px" width="200px">
+      <p>Lehenga's</p>
+      <h4>MRP</h4>
+      <p>$65</p>
+      <select>
+        <option>Select Size</option>
+        <option>XL</option>
+        <option>XXL</option>
+        <option>Small</option>
+        <option>Large</option>
+        <option>Select Size</option>
+        <p><button>Add to Cart</button></p>
+      </select>
+
+    </div>
+  </div>
+</div>
+
+<section id="feature" class="section-p1">
+  <h2>Services</h2>
+  <div class="fe-box">
+    <h3> Free Shipping </h3>
+    <img src="../images/freeshipping.jpg" alt="">
+  </div>
+
+  <div class="fe-box">
+    <h3>Online Order </h3>
+    <img src="../images/onlineorder.jpg" alt="">
+  </div>
 
 
-        <!---------- featured Products------------>
-        <div class="small-container">
-            <h2>Featured Product</h2>
-            <div class="row">
-                <div class="col-4">
-                    <img src="coats.jpg" height="200px" width="200px">
-                    <h4>MRP<h4>
-                        <p>$45</p>
+  <div class="fe-box">
+    <h3> Save Money </h3>
+    <img src="../images/save.png" alt="">
+  </div>
 
-                    </div>
-            </div>
-        </div>
+  <div class="fe-box">
+    <h3> Save Time </h3>
+    <img src="../images/savtime.jpg" alt="">
+  </div>
 
-        <>
+  <div class="fe-box">
+    <h3> 24*7 Support </h3>
+    <img src="../images/247.jpg" alt="">
+  </div>
 
-        <section id="feature" class="section-p1">
-            <div class="fe-box">
-                <img src="freeshipping.jpg" alt="">
-                <h3> Free Shipping </h3>
-                </div>
+</section>
 
-                <div class="fe-box">
-                    <img src="./images/freeshipping.jpg" alt="">
-                    <h3>Online Order </h3>
-                </div>
+<section id="newsletter" class="section-p1">
+  <div class="newstext">
+    <h4>Sign up For Newsletter</h4>
+    <p>Get Email Updates about our Special Offers</p>
+  </div>
+  <div class="form">
+    <input type="text" placeholder="Email Address">
+    <button>Sign Up</button>
+  </div>
+</section>
 
 
-                    <div class="fe-box">
-                        <img src="freeshipping.jpg" alt="">
-                        <h3> Save Money </h3>
-                    </div>
+<footer class="section-p1">
+  <div class="col">
+    <h4>Contact</h4>
+    <img class="logo" src="../images/shoppingcart.jpg" alt="" width="75px" height="75px">
+    <p><strong>Address:</strong> 33 Durbar Marg Road,Mercatile Plaza,Kathmandu</p>
+    <p><strong>Phone:</strong> +9779749914864, 9803017003</p>
+    <p><strong>Opening Hours:</strong>Monday-Friday:09:00a.m.-19:00p.m.</p>
 
-                    <div class="fe-box">
-                        <img src="time.png" alt="">
-                        <h3> Save Time </h3>
-                    </div>
+    <div class="wrapper">
+      <h4>Follow Us</h4>
+    <div class="icon">
+      <a href="#" class="icon facebook">
+        <div class="tooltip">Facebook</div>
+        <span><i class="fab fa-facebook-f"></i></span>
+      </a>
+      <a href="#" class="icon twitter">
+        <div class="tooltip">Twitter</div>
+        <span><i class="fab fa-twitter"></i></span>
+      </a>
+      <a href="#" class="icon instagram">
+        <div class="tooltip">Instagram</div>
+        <span><i class="fab fa-instagram"></i></span>
+      </a>
+      <a href="#" class="icon Gmail">
+        <div class="tooltip">Gmail</div>
+        <span><i class="fab fa-Gmail"></i></span>
+      </a>
+      <a href="#" class="icon youtube">
+        <div class="tooltip">Youtube</div>
+        <span><i class="fab fa-youtube"></i></span>
+      </a>
+    </div>
+   </div>
+  </div>
 
-                    <div class="fe-box">
-                        <img src="247.jpg" alt="">
-                        <h3> 24*7 Support </h3>
-                     </div>
+    <div class="col">
+      <h4>About</h4>
+      <a href="#">About Us</a>
+      <a href="#">Delivery Information </a>
+      <a href="#">Privacy Policy</a>
+      <a href="#">Terms & Conditions</a>
+      <a href="#">Buyer</a>
+      <a href="#">Seller</a>
+    </div>
 
-                     <div class="fe-box">
-                        <img src="freeshipping.jpg" alt="">
-                        <h3> </h3>
-                     </div>
-                    
-        </section>
-        
- 
 
+    <div class="col">
+      <h4>My Account</h4>
+      <a href="#">Sign In</a>
+      <a href="#">View Cart </a>
+      <a href="#">My Wishlist</a>
+      <a href="#">Track My Order</a>
+      <a href="#">Help</a>
+      <a href="#">CashPoint</a>
+    </div>
+
+    <div class="col-install">
+      <h4>Download App</h4>
+      <p></p>
+      <div class="row">
+        <img src="../images/appstore.jpg" alt="" height="100px" width="100px">
+        <a href="https://www.apple.com/app-store/"></a>
+        <a href="https://playstore.com/"></a>
+      </div>
+
+      <p> Online Payment Gateways Partners</p>
+      <img src="../images/visa.jpg" alt="" height="100px" width="100px">
+      <img src="../images/esewa_og.jpg" alt="" height="100px" width="100px">
+      <img src="../images/imepay.jpg" alt="" height="100px" width="100px">
+      <img src="../images/paypal.jpg" alt="" height="100px" width="100px">
+    </div>
+</footer>
+
+    <div class="Copyright">
+      <p><footer>&copy; Copyright 2023 From Innovation & Tech </footer>
+    </div>
+
+
+<script src="script.js"></script>
 </body>
 </html>
