@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>ShowUser</title>
+</head>
+<body>
+<a th:href="@{/user/create}">CreateNew</a>
+<table>
+    <thead>
+    <tr>
+        <th>Email</th>
+        <th>MobileNumber</th>
+        <th>UserName</th>
+        <th>Password</th>
+
+    </tr>
+    </thead>
+    <tbody>
+    <!-- th:each => for loop ma ghumyxw UserList back bata deko list jasko tyhpe user ho     -->
+    <!--controller ma pathauda kheri ko User ho-->
+
+    <tr th:each="user:${userList}">
+        <td th:text="${user.id}"></td>
+        <td th:text="${user.email}"></td>
+        <td th:text="${user.mobileNo}"></td>
+        <td th:text="${user.userName}"></td>
+        <td th:text="${user.password}"></td>
+
+        <td>
+            <a class="edit" th:href="@{~/user/edit/}+${user.id}">Edit</a>
+            <a class="delete" th:href="@{~/user/delete/}+${user.id}">Delete</a>
+        </td>
+    </tr>
+    </tbody>
+</table>
+</body>
+</html>

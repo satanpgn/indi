@@ -1,0 +1,327 @@
+
+.navbar{
+    display: flex;
+    align-items: center;
+    padding: 20px;
+}
+
+nav{
+    flex: 1;
+    text-align: right;
+}
+.navbar input{
+    background-color: #de463b;
+    padding: 6px;
+    border: none;
+    margin-top: 8px;
+    margin-right: 16px;
+    font-size: 17px;
+
+}
+nav ul{
+    display: inline-block;
+    list-style-type: none;
+
+}
+nav ul li{
+    display: inline-block;
+    margin-right: 20px;
+
+}
+a{
+    text-decoration: none;
+    color: red;
+}
+/* logo sections goes here */
+.container{
+    max-width: 1300px;
+    margin: auto;
+    padding-left: 25px;
+    padding-right: 25px;
+
+}
+/* Display visit now sections goes here */
+.row{
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: space-around;
+
+
+}
+.col-2{
+    flex-basis: 50%;
+    min-width: 300px;
+
+}
+.col-2 img{
+    max-width: 100%;
+    padding: 50px 0;
+
+}
+.col-2 h1{
+    font-size: 50px;
+    line-height: 60px;
+    margin: 25px 0;
+
+}
+.btn{
+    display: inline-block;
+    background: yellow ;
+    color: green;
+    padding: 8px 30px;
+    margin: 30px 0;
+    border-radius: 30px;
+    transition: background 0.5s;
+
+}
+.btn:hover{
+    background:green;
+}
+
+.header{
+    background: linear-gradient(white, green);
+}
+
+.header .row{
+    margin-top: 70px;
+}
+/* Product Display sections goes here */
+
+.categories{
+    margin: 60px 0;
+
+}
+.col-3{
+    flex-basis: 30%;
+    min-width: 250px;
+    margin-bottom: 30px;
+}
+.col-3 img{
+    width: 100%;
+}
+.small-container{
+    max-width: 1080px;
+    margin: auto;
+    padding-left: 25px;
+    padding-right: 25px;
+
+}
+.col-4{
+    flex-basis: 25%;
+    padding: 10px;
+    min-width: 200px;
+    margin-bottom: 50px;
+
+}
+/* Feature  Product Display goes here */
+#feature{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+
+}
+/* Feature Services Display goes here */
+#feature .fe-box{
+    width: 180px;
+    text-align: center;
+    padding: 5px 5px;
+    box-shadow: 20px 20px 34px rgba(0,0,0,0.3) ;
+    border: 2px solid green;
+    border-radius: 4px;
+    margin: 5px 5px;
+}
+#feature .fe-box img{
+    width: 100px;
+    margin-bottom: 10px;
+}
+#feature .fe-box:hover{
+    box-shadow: 10px 10px 54px rgba(70,62,221,0.1);
+}
+#feature .fe-box h3{
+    padding: 9px 8px 6px 8px;
+    line-height: 1;
+    border-radius: 2px;
+    color: red;
+    background-color: white;
+
+}
+#feature .fe-box:nth-child(1) h3{
+    background-color: black;
+}
+#feature .fe-box:nth-child(2) h3{
+    background-color: green;
+}
+#feature .fe-box:nth-child(3) h3{
+    background-color: purple;
+}
+#feature .fe-box:nth-child(4) h3{
+    background-color: yellow;
+}
+#feature .fe-box:nth-child(5) h3{
+    background-color: brown;
+}
+/* Newsletter  goes here */
+#newsletter{
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    align-items: center;
+    background-image: url("../images/newsletter-logo.jpg");
+    background-repeat: no-repeat;
+    background-position: 20% 30%;
+    background-color: #8e44ad;
+}
+#newsletter h4{
+    font-size: 22px;
+    font-weight: 700;
+    color: green;
+}
+#newsletter p{
+    font-size: 14px;
+    font-weight: 600;
+    color: purple;
+}
+
+/*.wrapper .icon{
+    position: relative;
+    background-color: #ffffff;
+    border-radius: 50%;
+    margin: 10px;
+    width: 50px;
+    height: 50px;
+    line-height: 50px;
+    font-size: 22px;
+    display: inline-block;
+    align-items: center;
+    box-shadow: 0 10px 10px rgba(0, 0, 0, 0.1);
+    cursor: pointer;
+    transition: all 0.2s cubic-bezier(0.68, -0.55, 0.265, 1.55);
+    color: #333;
+    text-decoration: none;
+}
+.wrapper .tooltip {
+    position: absolute;
+    top: 0;
+    line-height: 1.5;
+    font-size: 14px;
+    background-color: #ffffff;
+    color: #ffffff;
+    padding: 5px 8px;
+    border-radius: 5px;
+    box-shadow: 0 10px 10px rgba(0, 0, 0, 0.1);
+    opacity: 0;
+    pointer-events: none;
+    transition: all 0.3s cubic-bezier(0.68, -0.55, 0.265, 1.55);
+}
+.wrapper .tooltip::before {
+    position: absolute;
+    content: "";
+    height: 8px;
+    width: 8px;
+    background-color: #ffffff;
+    bottom: -3px;
+    left: 50%;
+    transform: translate(-50%) rotate(45deg);
+    transition: all 0.3s cubic-bezier(0.68, -0.55, 0.265, 1.55);
+}
+.wrapper .icon:hover .tooltip {
+    top: -45px;
+    opacity: 1;
+    visibility: visible;
+    pointer-events: auto;
+}
+.wrapper .icon:hover span,
+.wrapper .icon:hover .tooltip {
+    text-shadow: 0px -1px 0px rgba(0, 0, 0, 0.1);
+}
+.wrapper .facebook:hover,
+.wrapper .facebook:hover .tooltip,
+.wrapper .facebook:hover .tooltip::before {
+    background-color: #3b5999;
+    color: #ffffff;
+}
+.wrapper .twitter:hover,
+.wrapper .twitter:hover .tooltip,
+.wrapper .twitter:hover .tooltip::before {
+    background-color: #46c1f6;
+    color: #ffffff;
+}
+.wrapper .instagram:hover,
+.wrapper .instagram:hover .tooltip,
+.wrapper .instagram:hover .tooltip::before {
+    background-color: #e1306c;
+    color: #ffffff;
+}
+.wrapper .Gmail:hover,
+.wrapper .Gmail:hover .tooltip,
+.wrapper .Gmail:hover .tooltip::before {
+    background-color: #333333;
+    color: #ffffff;
+}
+.wrapper .youtube:hover,
+.wrapper .youtube:hover .tooltip,
+.wrapper .youtube:hover .tooltip::before {
+    background-color: #de463b;
+    color: #ffffff;
+}
+*/
+/* Contact col  goes here */
+footer{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+footer .col{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin-bottom: 20px;
+}
+footer .logo {
+    margin-bottom: 30px;
+}
+footer h4{
+    font-size: 14px;
+    padding-bottom: 20px;
+}
+footer p{
+    font-size: 13px;
+    text-decoration: #8e44ad;
+    color: #de463b;
+    margin: 0 0 8px 0;
+}
+/* Follow us   goes here */
+
+footer .follow us{
+    margin: 20px;
+}
+footer .follow i {
+    color: #de463b;
+    padding-right: 4px;
+    cursor: pointer;
+
+}
+/* Download app  goes here */
+
+footer .install .row img{
+    border: 1px solid #04AA6D;
+    border-radius: 6px;
+}
+
+footer .install img{
+    margin: 10px 0 15px 0;
+}
+
+footer .follow i:hover,
+footer a:hover{
+    color: #04AA6D;
+}
+
+footer .Copyright{
+    width: 100%;
+    text-align: center;
+}

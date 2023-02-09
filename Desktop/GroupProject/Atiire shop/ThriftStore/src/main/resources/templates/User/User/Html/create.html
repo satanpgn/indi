@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>CreateUser</title>
+</head>
+<body>
+
+<form th:method="post" th:action="@{/user/save}" th:object="${user}">
+
+    <input type="text" hidden placeholder="UserId..." th:field="*{id}" th:value="${user.id}" />
+
+    <input type="text" placeholder="UserName..." th:field="*{userName}" th:value="${user.userName}" />
+
+
+    <input type="email" placeholder="Enter your email..." th:field="*{email}" th:value="${user.email}" />
+
+    <input type="text" placeholder="Enter phone number..." th:field="*{mobileNo}" th:value="${user.mobileNo}" />
+
+    <input type="password" placeholder="Confirm password..." th:field="*{password}" th:value="${user.password}" />
+
+
+    <button type="submit" class="submit">REGISTER</button>
+</form>
+
+</body>
+</html>
